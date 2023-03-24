@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Huiyin Xue</title>
+        <link rel="shortcut icon" href="octopus.ico" type="image/x-icon" />
+        
+    </head>
+
+    <body>
+    	<div class="page">
+    	    <img class="octopus_img" src="octopus.png"/>
+    	    <h1>Huiyin Xue</h1>
+    	    <div class="navigator">
+    	    	<div><a href="publication.html">[Publications]</a></div>
+    	    	<div><a href="https://scholar.google.com/citations?hl=en&user=65wII5AAAAAJ">[Google Scholar]</a></div>
+    	    	<div><a href="https://github.com/HUIYINXUE">[GitHub]</a></div>
+    	    	<div><a href="https://huggingface.co/klein9692">[HuggingFace]</a></div>
+    	    	<div><a href="https://twitter.com/HuiyinXue">[Twitter]</a></div>
+    	    </div>
+    	    <div class="bio">
+                <div class="bio-text">
+                    <p>
+                    I am a PhD student in the Natural Language Processing Group, University of Sheffield, under the supervision of Dr. Nikolaos Aletras. Previously, I earned an MSc. in Data Analytics with distinction from University of Sheffield and B.E. in Economic Statistics from Southwestern Universiity of Finance and Economics, China. My research interests are efficient transformer-based language models, as well as transfer learning and domain adaption etc.
+                    </p>
+                </div>
+                <div class="photo-area">
+                </div>
+    	    </div>
+        </div>
+    	
+    </body>
+
+    <style>
+    	body, html{
+    		height: 100%;
+            width: 100%;
+    	}
+
+    	.page {
+    		margin: 0;
+    		position: relative;
+            left: 0;
+            right:0;
+    		width: 100%;
+    		height: 100%;
+    		flex: auto;
+    	}
+
+        .octopus_img {
+        	position: relative;
+        	left: 40%;
+            right: 40%;
+        	top: 5%;
+        	width: 20%;
+        }
+
+        .navigator {
+            position: relative;
+            top: 7%;
+            left: 12.5%;
+            right: 12.5%;
+            font-size: 25px;
+            display: flex;
+            flex-wrap: nowrap;
+        }
+
+        .navigator > div {
+            font-size: 15px;
+            text-align: center;
+            width: 15%;
+            color: lightgray;
+        }
+
+        .bio {
+        	position: relative;
+        	top: 10%;
+        	left: 12.5%;
+            right: 12.5%;
+        	width: 75%;
+        	text-align: right;
+        	font-size: 20px;
+            display: flex;
+            flex-wrap: nowrap;
+        }
+
+
+        .bio-text{
+            position: relative;
+            top: 0%;
+            left: 0%;
+            right: 0%;
+            width: 66.67%;
+        }
+
+
+        .bio-text > p {
+            margin-block-start: 0em;
+            margin-block-end: 0em;
+        }
+
+
+        .bio-text > p:first-letter{
+            font-size: 45px;
+            padding-right: 10px;
+            text-transform: uppercase;
+            color: gray;
+            text-shadow: lightcyan;
+        }
+
+        .photo-area{
+            position: absolute;
+            height: 100%;
+            top: 0%;
+            right: 0%;
+            width: 33.3%;
+            background-image: url(./me-photo.jpg);
+            background-position: right;
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+
+
+    	h1 {
+    		top: 5%;
+    		position: relative;
+    		text-align: center;
+    		font-style: normal;
+    		font-size: 55px;
+    		color: grey;
+    	}
+    </style>
+
+</html>
